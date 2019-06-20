@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace
+}
+
+.navbar { 
+  display: -webkit-inline-box;
+  overflow: hidden;
+}
+
+.navbar a{
+  padding: 14px 40px;
+  text-decoration: none;
+  color: blueviolet;
+  border: 1px solid darkgray
+}
+
+.timeline{
+  overflow: hidden;
+}
+
+.timeline-content {
+  display: none;
+  position: relative;
+  z-index: 1;
+  padding: 0px 23px
+}
+
+.timeline-content a{
+  float: none;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  border:none;
+}
+
+/* .timeline:hover .timeline-content{
+  display: block;
+} */
+
+.column{
+  float: left;
+  padding:10px
+}
+
+.column img{
+  width: 100%
+}
+.vowel{
+  background-color:#FF69B4;
+  color: white
+}
+
+.spanTag{
+  visibility:hidden;
+  display: block;
+}
+
+.spanTagForCount{
+  display: block
+}
